@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
    print('Request for index page received')
-   return "Hey I hate you"
+   return "Hey I love you"
 
 @app.route('/favicon.ico')
 def favicon():
